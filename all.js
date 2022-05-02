@@ -88,7 +88,7 @@ function calculate() {
 		state = 'normal'
 		classColor = 'red'
 		bmiStateText(heightNum, weightNum, bmi, state, classColor)
-	} else if (124 <= bmi && bmi < 27) {
+	} else if (24 <= bmi && bmi < 27) {
 		// normal
 		state = 'overWeight'
 		classColor = 'orange'
